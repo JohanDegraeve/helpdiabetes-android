@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<resources  xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+	<string name="app_name">HelpDiabetes</string>
+   	<string name="btup">+</string>
+    <string name="btdown">-</string>
+    <string name="endOfListView">></string>
+    <string name="Version">Versie 2.0</string>
+    <string name="about_text_copyright">Copyright &#169; 2012 Hippo&#38;Friends</string>
+</resources>

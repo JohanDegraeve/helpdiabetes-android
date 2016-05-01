@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/LinearLayoutForColor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" 
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/defaultFontNormal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/defaultFontNormal" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center_vertical"
+        style="@style/defaultFontNormal" >
+    </TextView>
+
+</LinearLayout>

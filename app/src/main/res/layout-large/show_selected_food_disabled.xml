@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding" >
+
+    <LinearLayout style="@style/llTitel" >
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/buttonBack" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/total" />
+
+        <Button
+            android:id="@+id/buttonAddSelectedFoodToTracking"
+           style="@style/buttonForward" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewShowTotalValues"
+            style="@style/defaultFontNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/textViewShowTotalNames"
+            style="@style/defaultFontNormal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonSaveAsTemplate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_menu_save"
+                android:text="@string/save_as_template" />
+
+            <Button
+                android:id="@+id/buttonLoadTemplate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_menu_load"
+                android:text="@string/Load_template" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_menu_delete" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

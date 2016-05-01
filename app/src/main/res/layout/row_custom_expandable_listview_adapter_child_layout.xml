@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="5dip"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="33"
+        android:background="@color/ColorBlack" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/defaultFontNormal"
+        android:layout_weight="0.5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="33"
+        android:background="@color/ColorBlack" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+
+            <TextView
+                android:id="@+id/tv4"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/defaultFontNormal"
+        android:layout_weight="0.5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="33"
+        android:background="@color/ColorBlack" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/tv5"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+
+            <TextView
+                android:id="@+id/tv6"
+                style="@style/defaultFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:textColor="@color/ColorWhite" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

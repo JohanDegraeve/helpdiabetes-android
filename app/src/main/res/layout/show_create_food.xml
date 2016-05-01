@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout style="@style/linearLayoutVerticalWithPadding" >
+
+        <LinearLayout style="@style/llTitel" >
+
+            <Button
+                android:id="@+id/buttonBack"
+                style="@style/buttonBack" />
+
+            <TextView
+                style="@style/defaultFontTitle"
+                android:text="@string/titelCreateFood" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                style="@style/buttonForward" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/food_name" />
+
+                <EditText
+                    android:id="@+id/editTextFoodName"
+                    style="@style/editTextInTableText"
+                    android:inputType="text" >
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/unit" />
+
+                <Spinner
+                    android:id="@+id/spinnerShowCreateFoodUnit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowSpecialFoodUnit"
+                style="@style/styleTableRowGravityCenter"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/textViewInTableAlignRight" />
+
+                <EditText
+                    android:id="@+id/editTextFoodUnitStandardAmound"
+                    style="@style/editTextInTableFloat"
+                    android:text="1" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/editTextFoodUnitName"
+                    style="@style/editTextInTableText"
+                    android:text="@string/part" >
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowCarb"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textViewShowCreateFood1"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/short_carbs" />
+
+                <EditText
+                    android:id="@+id/editTextShowCreateFood1"
+                    style="@style/editTextInTableFloat" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowProt"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textViewShowCreateFood2"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/amound_of_protein" />
+
+                <EditText
+                    android:id="@+id/editTextShowCreateFood2"
+                    style="@style/editTextInTableFloat" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowFat"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textViewShowCreateFood3"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/amound_of_fat" />
+
+                <EditText
+                    android:id="@+id/editTextShowCreateFood3"
+                    style="@style/editTextInTableFloat" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowKcal"
+                style="@style/styleTableRowGravityCenter" >
+
+                <TextView
+                    android:id="@+id/textViewShowCreateFood4"
+                    style="@style/textViewInTableAlignRight"
+                    android:text="@string/short_kcal" />
+
+                <EditText
+                    android:id="@+id/editTextShowCreateFood4"
+                    style="@style/editTextInTableFloat" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

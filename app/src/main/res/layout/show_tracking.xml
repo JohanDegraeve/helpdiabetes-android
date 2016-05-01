@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding" >
+
+    <LinearLayout style="@style/llTitel" >
+
+        <Button
+            style="@style/buttonBack"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/titelTracking" />
+
+        <Button
+            android:id="@+id/ButtonForward"
+            style="@style/buttonForward" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorBackgroundTrackingDateLighter"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/buttonMore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/seeMore" />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorBackgroundTrackingDateLighter"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/styleEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:hint="@string/food_name" />
+
+        <Button
+            android:id="@+id/buttonSearchNext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/searchNext"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

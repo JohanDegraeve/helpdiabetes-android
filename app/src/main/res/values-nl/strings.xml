@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<resources>
+	<string name="add">Toevoegen</string>
+    <string name="update">Aanpassen</string>
+    <string name="menu_delete">Verwijderen</string>
+    <string name="delete_all">Wis alles</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="loading">laden</string>
+    <string name="hide">Verberg</string>
+    <string name="Name">Naam</string>
+    <string name="unit">Eenheid</string>
+    <string name="name_cant_be_empty">Naam mag niet leeg zijn</string>
+    <string name="unit_cant_be_empty">Eenheid mag niet leeg zijn</string>
+    <string name="short_kcal">kcal</string>
+    <string name="short_carbs">Kh</string>
+    <string name="save">Opslaan</string>
+    <string name="oke">Ok</string>
+    <string name="cancel">Annuleren</string>
+    <string name="visibility">Zichtbaarheid</string>
+    <string name="visible">Zichtbaar</string>
+    <string name="invisible">Onzichtbaar</string>
+    <string name="next">Volgende</string>
+    <string name="sureToExit">Bent u zeker dat u wilt afsluiten ?</string>
+    <string name="checkingDatabase">Database initialiseren</string>
+    <string name="are_you_diabetes_patient">Helpdiabetes kan automatisch insuline dosissen berekenen. \nWilt u gebruik maken van deze functie ?</string>
+    <string name="titelTracking">Historiek</string>
+    <string name="titelCreateFood">Nieuw voedingsmiddel</string>
+    <string name="titelUpdateFood">Voedingsmiddel</string>
+    <string name="titelCreateUnit">Voedingsmiddel Eenheid</string>
+    <string name="titelAddFood">Nieuwe selectie</string>
+    <string name="titelAddExercise">Activiteit</string>
+    <string name="titelAddGlucose">Bloedglucose</string>
+    <string name="titelSettings">Instellingen</string>
+    <string name="titelAddMedicine">Medicatie</string>
+    <string name="titelTemplate">Templates</string>
+    <string name="pref_insuline_ratio">Insuline-Kh Ratio</string>
+    <string name="pref_meal_times">Maaltijdtijden</string>
+    <string name="pref_value_order">Voorkeur voedingswaarde</string>
+    <string name="pref_text_size">Lettergrootte</string>
+    <string name="pref_glucose_unit">Bloedglucose-eenheid</string>
+    <string name="pref_exercise_types">Activiteit types</string>
+    <string name="pref_medicine_types">Medicijn types</string>
+    <string name="pref_db_language">Taal voedingstabel</string>
+    <string name="pref_backup">Back-up, herstel, importeer en exporteer</string>
+    <string name="pref_about">Over</string>
+    <string name="pref_add_exercise_type">Activiteit type toevoegen</string>
+    <string name="pref_add_medicine_type">Medicijn type toevoegen</string>
+    <string name="showTracking">Rapporten</string>
+    <string name="noTrackingValues">Er zijn nog geen rapporten</string>
+    <string name="addToSelection">Toevoegen aan selectie</string>
+    <string name="showSelectedFoodPopupAddAmountToTemplate">Wilt u de aantallen mee bewaren?</string>
+    <string name="insuline">Insuline</string>
+    <string name="insulineRatio">gram Kh/1 IE</string>
+    <string name="insulineUnit">IE</string>
+    <string name="showSelectedFoodEatSelectedFood">toevoegen aan rapport</string>
+    <string name="total">Totaal selecties</string>
+    <string name="sureToDeleteSelectedFood">Bent u zeker dat u alle selecties wilt verwijderen ?</string>
+    <string name="addSelectionToTracking">De selecties aan de historiek toevoegen ?</string>
+    <string name="howMuch">Hoeveel</string>
+    <string name="didUUse">heeft u ingenomen ?</string>
+    <string name="changeTime">Verander tijd</string>
+    <string name="search">Zoeken</string>
+    <string name="options">Opties</string>
+    <string name="update_food_name">Productnaam aanpassen</string>
+    <string name="unit_amount_cant_be_zero">Eenheid moet groter dan 0 zijn</string>
+    <string name="add_exercise_events">Sport activiteit toevoegen</string>
+    <string name="menu_update_exercise_type">Intensiteiten updaten</string>
+    <string name="add_and_add_another">Toevoegen en terug naar lijst</string>
+    <string name="add_and_go_to_selected">Toevoegen en naar overzicht gaan</string>
+    <string name="description">Beschrijving</string>
+    <string name="start_time">Begin tijd</string>
+    <string name="end_time">Duur</string>
+    <string name="exercise_type">Type</string>
+    <string name="description_cant_be_empty">Beschrijving mag niet leeg zijn</string>
+    <string name="amountCantBeZero">Waarde mag niet 0 zijn!</string>
+    <string name="exercise_type_cant_be_empty">Type mag niet leeg zijn</string>
+    <string name="date">Datum</string>
+    <string name="amound_of_kcal">Kilocalorieën</string>
+    <string name="amound_of_carbs">Koolhydraten</string>
+    <string name="amound_of_protein">Eiwit</string>
+    <string name="amound_of_fat">Vet</string>
+    <string name="multiplie">X</string>
+    <string name="cant_delete_food_caus_food_is_in_use">Dit eten kan niet verwijderd worden (het wordt nog gebruikt)!</string>
+    <string name="create_new_food">eten</string>
+    <string name="food_name">Productnaam</string>
+    <string name="food_name_is_required">Naam eten mag niet leeg zijn</string>
+    <string name="units">Hoeveelheden</string>
+    <string name="selections_are_empty">Selecties is leeg</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="do_you_want_to_delete_the_selections">Wilt u de selecties leegmaken ?</string>
+    <string name="add_food_to_template_error">U moet minimum 2 voedingsmiddelen selecteren vooraleer de selecties te kunnen bewaren als template</string>
+    <string name="delete">verwijder</string>
+    <string name="template_name">Template naam</string>
+    <string name="save_as_template">bewaar template</string>
+    <string name="Load_template">laad template</string>
+    <string name="template_load_empty">Er zijn geen templates</string>
+    <string name="template_name_cant_be_empty">Template naam mag niet leeg zijn</string>
+    <string name="dateSliderTitle">Geselecteerde datum</string>
+    <string name="pref_breakfastratio_title">Ontbijt</string>
+    <string name="pref_lunchratio_title">Middag</string>
+    <string name="pref_snackratio_title">Vieruurtje</string>
+    <string name="pref_dinnerratio_title">Avondmaal</string>
+    <string name="starts_at">begint om</string>
+    <string name="if_value_zero_dont_calc_insuline">Als de waarde 0 is wordt er geen insuline berekend!</string>
+    <string name="standard_cant_be_hidden">Default kan niet onzichtbaar gezet worden</string> 
+    <string name="fontSize">Tekstgrootte</string>
+    <string name="selected_wanted_size">Selecteer de gewenste grootte</string>
+    <string name="standard">default</string>
+    <string name="make_standard">Markeer als default</string>
+    <string name="standard_is_used_for">Default word gebruikt om geselecteerd eten aan de rapport pagina toe te voegen</string>
+    <string name="about_text">Dit programma is vrije software: je mag het herdistribueren en/of wijzigen onder de voorwaarden van de GNU Algemene Publieke Licentie zoals gepubliceerd door de Free Software Foundation, onder versie 3 van de Licentie of (naar jouw keuze) elke latere versie. Dit programma is gedistribueerd in de hoop dat het nuttig zal zijn maar ZONDER ENIGE GARANTIE: zelfs zonder de impliciete garanties die GEBRUIKELIJK ZIJN IN DE HANDEL of voor BRUIKBAARHEID VOOR EEN SPECIFIEK DOEL. Zie de GNU Algemene Publieke Licentie voor meer details. Je hoort een kopie van de GNU Algemene Publieke Licentie te hebben ontvangen samen met dit programma. Als dat niet het geval is, zie http://www.gnu.org/licenses/gpl.txt.
+    \n
+    \nWij gebruiken Google Analytics om het gebruik van deze applicatie op te volgen. Wij traceren het gebruik van elk scherm zonder echter de inhoud van het scherm te traceren. Uw identiteit of andere persoonlijke gegevens worden niet getraceerd.
+    \n 
+    \nDe food data komt van de volgende bronnen:
+    \n
+    \n
+    - Dutch: www.johandegraeve.net \n\n
+    - English - Norway: The Norwegian Food Safety Authority \n\n
+    - English - Denmark: Danish Food Composition Databank, version 6.0, 2008 \n\n
+    - French - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich en Federal Office of Public Health \n\n
+    - Spanish - Argentina: http://www.unlu.edu.ar/~argenfood/wwwunlu.htm \n\n
+    - Spanish - Uruguay: Tabla de Composición de Alimentos de Uruguay \n\n
+    - German - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich en Federal Office of Public Health \n\n
+    - Italian - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich en Federal Office of Public Health \n\n
+    - Danish: Danish Food Composition Databank, version 6.0, 2008 \n\n
+    - Romanian: http://www.getfit.ro/continut.php \n\n
+    - Norwegian: The Norwegian Food Safety Authority \n\n
+    - Czech: http://www.rozumnehubnuti.cz \n\n
+    - USDA National Nutrition Database: U.S. Department of Agriculture, Agricultural Research Service. 2011. USDA National Nutrient Database for Standard Reference, Release 24. Nutrient Data Laboratory Home Page,http://www.ars.usda.gov/ba/bhnrc/ndl \n\n
+    - French: Axelle, membre du Forum Diabète de Doctissimo
+    </string>
+    <string name="copyDatabaseToSD">Back-up maken naar SD kaartje</string>
+    <string name="foodToExcel">Exporteer producten naar csv bestand</string>
+    <string name="excelToDB">Importeer producten uit csv bestand</string>
+    <string name="select_standard_medicine_type">Selecteer het default medicijn type</string>
+    <string name="define_own">Definieër eigen</string>
+
+    <!-- Standard amound for adding units -->
+    <string name="part">stuk</string>
+
+    <!-- Update: 14-05-2012 -->
+    <string name="file_name">Bestandsnaam</string>
+    <string name="no_own_food">Er zijn geen zelf toegevoegde/aangepaste producten</string>
+    <string name="could_not_write">Kan niet schrijven naar SD kaartje</string>
+    <string name="succesfull_wrote_to_sd">Bestand succesvol gekopieerd naar SD kaartje</string>
+    <string name="succesfull_wrote_csv_file">Bestand succesvol aangemaakt</string>
+    <string name="sucessfull_copied_records_to_database">Producten sucessvol aan database toegevoegd</string>
+    <string name="could_not_read_from_sd">Kan niet van SD kaartje lezen</string>
+    <string name="selections_aint_empty">Er zijn nog producten in selectie!</string>
+    <string name="dont_add_medicine">Medicijn niet toevoegen</string>
+    <string name="sucesfull_added">Producten toevoegd aan selectie</string>
+
+    <!-- Update: 15-05-2012 -->
+    <string name="warning">Waarschuwing</string>
+    <string name="app_will_exit">De applicatie zal nu afsluiten \n Gelieve deze zelf terug op te starten</string>
+    <string name="something_went_wrong">Bent u zeker dat het bestand op het SD kaartje staat ?</string>
+    <string name="succesfull_copied">Database gekopieerd</string>
+    <string name="databaseFromSDToPhone">Herstel database van SD kaartje</string>
+    <string name="deleteCurrentDatabase">Deze functie zal de huidige database overschrijven waardoor al de huidige data verwijderd wordt. \n\nBent u zeker dat u verder wilt gaan ?</string>
+    <string name="seeMore">Laad meer</string>
+    <string name="noFilesFound">Geen csv bestanden gevonden op root van SD kaartje</string>
+    <string name="chooseFile">Kies bestand</string>
+    <string name="calculated">Berekend:</string>
+    <string name="searchNext">Vind volgende</string>
+    
+    <!--  Update: 22-05-2012 -->
+    <string name="selectedTime">Geselecteerde tijd</string>
+    <string name="resource">Bron</string>
+
+    <!--  Update: 23-05-2012 -->
+    <string name="customResource">U hebt een custom database gekozen.\nU kunt nu uw eigen voedingsmiddelen importeren via \'Back-up, herstel, importeer en exporteer\'. Kies daarna de optie \'Importeer voedingsmiddelen uit csv bestand\'.</string>
+    <string name="realTotal">Totaal</string>
+    
+    <!--  Update: 24-05-2012 -->
+    <string name="standardAmountCantBeEmpty">Het aantal mag niet leeg zijn</string>
+    
+    <!-- Update: 26-05-2012 -->
+    <string name="pref_log_to_excel">Historiek naar Excel</string>
+    <string name="minutes">minuten</string>
+    
+    <!-- Update: 30-05-2012 -->
+    <string name="created">aangemaakt</string>
+    
+    <!-- Update:  28-12-2012 -->
+    <string name="unhide_hidden_food">Toon onzichtbaar eten</string>
+    <string name="sure_to_unhide_hidden_food">Bent u zeker dat u al uw onzichtbaar eten opnieuw wilt tonen ?</string>
+</resources>

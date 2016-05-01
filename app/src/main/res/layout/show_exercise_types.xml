@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding" >
+
+    <LinearLayout
+        style="@style/llTitel" >
+
+        <Button
+            android:id="@+id/buttonBack"
+           style="@style/buttonBack" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/pref_exercise_types" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            style="@style/buttonForward"
+            android:background="@drawable/ic_menu_add" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

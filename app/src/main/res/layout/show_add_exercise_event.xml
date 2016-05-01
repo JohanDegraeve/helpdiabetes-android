@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding" >
+
+    <LinearLayout style="@style/llTitel" >
+
+        <Button
+            style="@style/buttonBack"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/titelAddExercise" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            style="@style/buttonForward"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonUpdateDateAndHour"
+        style="@style/defaultFontNormal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:text="@string/update" />
+
+    <Spinner
+        android:id="@+id/spinnerDuration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerSportType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/styleEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/delete" />
+
+</LinearLayout>

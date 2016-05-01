@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding"
+    android:background="@drawable/bg" >
+
+    <LinearLayout style="@style/llTitel" >
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/buttonBack" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/pref_value_order" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            style="@style/buttonForward"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow
+            style="@style/styleTableRowGravityCenter"
+            android:layout_width="fill_parent" >
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:paddingRight="10dip"
+                android:text="@string/unit" />
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="@string/standard" />
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:layout_gravity="center"
+                android:text="@string/visibility" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow
+            style="@style/styleTableRowGravityCenter"
+            android:layout_width="fill_parent" >
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:paddingRight="10dip"
+                android:text="@string/short_carbs" />
+
+            <RadioButton
+                android:id="@+id/radioCarbs"
+                style="@style/defaultFontNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonCarbs"
+                style="@style/defaultFontNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            style="@style/styleTableRowGravityCenter"
+            android:layout_width="fill_parent" >
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:paddingRight="10dip"
+                android:text="@string/amound_of_protein" />
+
+            <RadioButton
+                android:id="@+id/radioProt"
+                style="@style/defaultFontNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonProt"
+                style="@style/defaultFontNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            style="@style/styleTableRowGravityCenter"
+            android:layout_width="fill_parent" >
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:paddingRight="10dip"
+                android:text="@string/amound_of_fat" />
+
+            <RadioButton
+                android:id="@+id/radioFat"
+                style="@style/defaultFontNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonFat"
+                style="@style/defaultFontNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            style="@style/styleTableRowGravityCenter"
+            android:layout_width="fill_parent" >
+
+            <TextView
+                style="@style/textViewInTableAlignRight"
+                android:paddingRight="10dip"
+                android:text="@string/short_kcal" />
+
+            <RadioButton
+                android:id="@+id/radioKcal"
+                style="@style/defaultFontNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonKcal"
+                style="@style/defaultFontNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

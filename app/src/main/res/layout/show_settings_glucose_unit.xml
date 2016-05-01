@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        style="@style/llTitel" >
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/buttonBack" />
+
+        <TextView
+            style="@style/defaultFontTitle"
+            android:text="@string/pref_glucose_unit" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            style="@style/buttonForward"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGlucoseUnit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/buttonNext2"
+            style="@style/defaultFontNormal"
+            android:layout_gravity="bottom|right"
+            android:text="@string/next"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

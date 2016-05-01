@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<resources>
+
+    <color name="colorSport">#006600</color>
+    <color name="colorGlucose">#FF0000</color>
+    <color name="colorInsuline">#808000</color>
+    <color name="colorMedicine">#990099</color>
+    <color name="colorFood">#000</color>
+    <color name="colorTracking">#FFF</color>
+    <color name="ColorListViewOne">#D0DDEF</color>
+    <color name="ColorListViewTwo">#EEF3F9</color>
+    <color name="ColorListViewTextViewTextColor">#000</color>
+    <color name="ColorHelpDiabetesBlue">#5C89C7</color>
+    <color name="ColorHelpDiabetesBlueDarker">#1E2B3F</color>
+    <color name="ColorText">#000</color>
+    <color name="ColorBackgroundTrackingDate">#213A5C</color>
+    <color name="ColorBackgroundTrackingDateLittleLittleLighter">#374E6C</color>
+    <color name="ColorBackgroundTrackingDateLighter">#64758D</color>
+    <color name="ColorTextTrackingDate">#FFF</color>
+    <color name="ColorTransparant">#00000000</color>
+    <color name="ColorBlack">#000</color>
+    <color name="ColorWhite">#FFF</color>
+
+</resources>

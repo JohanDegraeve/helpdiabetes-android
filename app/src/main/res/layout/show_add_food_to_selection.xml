@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout style="@style/linearLayoutVerticalWithPadding" >
+
+        <LinearLayout style="@style/llTitel" >
+
+            <Button
+                android:id="@+id/buttonBack"
+                style="@style/buttonBack" />
+
+            <TextView
+                style="@style/defaultFontTitle"
+                android:text="@string/titelAddFood" />
+
+            <Button
+                android:id="@+id/buttonShowAddFoodAddAndAddAnother"
+                style="@style/buttonForward" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewSelectedFood"
+            style="@style/defaultFontNormal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip" >
+
+            <EditText
+                android:id="@+id/editTextFoodAmount"
+                style="@style/styleEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:digits="1234567890.,"
+                android:inputType="phone"
+                android:maxLength="7"
+                android:numeric="decimal" />
+
+            <Spinner
+                android:id="@+id/spinnerFoodUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:id="@+id/textViewOneValue"
+                style="@style/defaultFontNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ColorBlack"
+                android:padding="5dip"
+                android:shrinkColumns="*" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    style="@style/styleTableRowGravityCenter"
+                    android:layout_margin="5dip" >
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowOneFieldOne"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowOneFieldTwo"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowOneFieldThree"
+                        style="@style/textViewInTableAlignRight"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/ColorWhite"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRowCarb"
+                    style="@style/styleTableRowGravityCenter"
+                    android:layout_margin="5dip"
+                    android:background="@color/ColorBackgroundTrackingDate"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowTwoFieldOne"
+                        style="@style/textViewInTableAlignRight"
+                        android:text="@string/short_carbs"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowTwoFieldTwo"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowTwoFieldThree"
+                        style="@style/textViewInTableAlignRight"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/ColorWhite"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRowProt"
+                    style="@style/styleTableRowGravityCenter"
+                    android:layout_margin="5dip"
+                    android:background="@color/colorSport"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowThreeFieldOne"
+                        style="@style/textViewInTableAlignRight"
+                        android:text="@string/amound_of_protein"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowThreeFieldTwo"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowThreeFieldThree"
+                        style="@style/textViewInTableAlignRight"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/ColorWhite"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRowFat"
+                    style="@style/styleTableRowGravityCenter"
+                    android:layout_margin="5dip"
+                    android:background="@color/colorGlucose"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFourFieldOne"
+                        style="@style/textViewInTableAlignRight"
+                        android:text="@string/amound_of_fat"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFourFieldTwo"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFourFieldThree"
+                        style="@style/textViewInTableAlignRight"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/ColorWhite"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRowKcal"
+                    style="@style/styleTableRowGravityCenter"
+                    android:layout_margin="5dip"
+                    android:background="@color/colorInsuline"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFiveFieldOne"
+                        style="@style/textViewInTableAlignRight"
+                        android:text="@string/short_kcal"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFiveFieldTwo"
+                        style="@style/textViewInTableAlignRight"
+                        android:textColor="@color/ColorWhite" />
+
+                    <TextView
+                        android:id="@+id/textViewShowAddFoodRowFiveFieldThree"
+                        style="@style/textViewInTableAlignRight"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/ColorWhite"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <Button
+                android:id="@+id/buttonShowAddFoodDelete"
+                style="@style/buttonTrashCan" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

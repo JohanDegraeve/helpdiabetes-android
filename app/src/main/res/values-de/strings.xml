@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<!-- German translation by Markus Konermann - mtothearkus -->
+
+<resources>
+
+    <string name="add">Hinzufügen</string>
+    <string name="update">Update</string>
+    <string name="menu_delete">Entfernen</string>
+    <string name="delete_all">Löschen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="loading">loading</string>
+    <string name="hide">Verstecken</string>
+    <string name="Name">Name</string>
+    <string name="unit">Einheit</string>
+    <string name="name_cant_be_empty">Name darf nicht leer sein</string>
+    <string name="unit_cant_be_empty">Einheit darf nicht leer sein</string>
+    <string name="short_kcal">kcals</string>
+    <string name="short_carbs">KH</string>
+    <string name="save">Speichern</string>
+    <string name="oke">Ok</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="visibility">Sichtbarkeit</string>
+    <string name="visible">sichtbar</string>
+    <string name="invisible">unsichtbar</string>
+    <string name="next">Nächstes</string>
+    <string name="sureToExit">Wirklich beenden?</string>
+    <string name="checkingDatabase">Laden der Datenbank</string>
+    <string name="are_you_diabetes_patient">Helpdiabetes kann den Insulinbedarf automatisch berechnen.\nFunktion nutzen?</string>
+    <string name="titelTracking">Log</string>
+    <string name="titelCreateFood">Neues Essen</string>
+    <string name="titelUpdateFood">Essen</string>
+    <string name="titelCreateUnit">Essen Einheit</string>
+    <string name="titelAddFood">Neue Auswahl</string>
+    <string name="titelAddExercise">Event</string>
+    <string name="titelAddGlucose">Glukose</string>
+    <string name="titelSettings">Einstellungen</string>
+    <string name="titelAddMedicine">Medikation</string>
+    <string name="titelTemplate">Templates</string>
+    <string name="pref_insuline_ratio">BE-Faktor</string>
+    <string name="pref_meal_times">Essenszeiten</string>
+    <string name="pref_value_order">Essenszusammenstellungen</string>
+    <string name="pref_text_size">Schriftgröße</string>
+    <string name="pref_glucose_unit">Blutzuckereinheit</string>
+    <string name="pref_exercise_types">Activity types</string>
+    <string name="pref_medicine_types">Insulintyp</string>
+    <string name="pref_db_language">Speisen-Datenbank Sprache</string>
+    <string name="pref_backup">Backup, Wiederherstellen, Import, Export</string>
+    <string name="pref_about">Über</string>
+    <string name="pref_add_exercise_type">Aktivitätstyp hinzufügen</string>
+    <string name="pref_add_medicine_type">Insulintyp hinzufügen</string>
+    <string name="showTracking">Tagebuch</string>
+    <string name="noTrackingValues">Es gibt keine Einträge in der Vergangenheit</string>
+    <string name="addToSelection">Zur Auswahl hinzufügen</string>
+    <string name="showSelectedFoodPopupAddAmountToTemplate">Menge speichern?</string>
+    <string name="insuline">Insulin</string>
+    <string name="insulineRatio">BE/1 IE</string>
+    <string name="insulineUnit">IE</string>
+    <string name="showSelectedFoodEatSelectedFood">Zum Tagebuch hinzufügen</string>
+    <string name="total">Gesamtauswahl</string>
+    <string name="sureToDeleteSelectedFood">Auswahl wirklich löschen?</string>
+    <string name="addSelectionToTracking">Auswahl hinzufügen?</string>
+    <string name="howMuch">Wie viel</string>
+    <string name="didUUse">did you use?</string>
+    <string name="changeTime">Zeit ändern</string>
+    <string name="search">Suchen</string>
+    <string name="options">Optionen</string>
+    <string name="update_food_name">Produktnamen ändern</string>
+    <string name="unit_amount_cant_be_zero">Einheiten müssen größer sein als 0</string>
+    <string name="add_exercise_events">Add exercise activity</string>
+    <string name="menu_update_exercise_type">Intensität verändern</string>
+    <string name="add_and_add_another">Hinzufügen und zurück zur Liste</string>
+    <string name="add_and_go_to_selected">Hinzufügen und zurück zur Auswahl</string>
+    <string name="description">Beschreibung</string>
+    <string name="start_time">Startzeit</string>
+    <string name="end_time">Dauer</string>
+    <string name="exercise_type">Typ</string>
+    <string name="description_cant_be_empty">Beschreibung darf nicht leer sein</string>
+    <string name="amountCantBeZero">Der Wert darf nicht leer sein!</string>
+    <string name="exercise_type_cant_be_empty">Typ darf nicht leer sein!</string>
+    <string name="date">Datum</string>
+    <string name="amound_of_kcal">Kilokalorien</string>
+    <string name="amound_of_carbs">Kolenhydrate</string>
+    <string name="amound_of_protein">Protein</string>
+    <string name="amound_of_fat">Fett</string>
+    <string name="cant_delete_food_caus_food_is_in_use">Dies Essen kann nicht entfernt werden (ist noch in Verwendung)</string>
+    <string name="create_new_food">Nahrung</string>
+    <string name="food_name">Name der Nahrung</string>
+    <string name="food_name_is_required">Name darf nicht leer sein!</string>
+    <string name="units">Einheiten</string>
+    <string name="selections_are_empty">Auswahl ist leer</string>
+    <string name="saved">Speichern</string>
+    <string name="do_you_want_to_delete_the_selections">Auswahl löschen?</string>
+    <string name="add_food_to_template_error">Mind. 2 Proukte müssen ausgewählt werden!</string>
+    <string name="delete">Entfernen</string>
+    <string name="template_name">Templatename</string>
+    <string name="save_as_template">Template speichern</string>
+    <string name="Load_template">Template laden</string>
+    <string name="template_load_empty">keine Templates vorhanden</string>
+    <string name="template_name_cant_be_empty">Templatename darf nicht leer sein</string>
+    <string name="dateSliderTitle">Datum auswählen</string>
+    <string name="pref_breakfastratio_title">Frühstück</string>
+    <string name="pref_lunchratio_title">Mittagessen</string>
+    <string name="pref_snackratio_title">Snack</string>
+    <string name="pref_dinnerratio_title">Abendessen</string>
+    <string name="starts_at">von</string>
+    <string name="if_value_zero_dont_calc_insuline">Wenn 0 ausgefüllt, dann wird die Insulinmenge nicht berechnet!</string>
+    <string name="standard_cant_be_hidden">Standard kann nicht versteckt werden</string>
+    <string name="fontSize">Schriftgröße</string>
+    <string name="selected_wanted_size">Gewählte gewünschte Größe</string>
+    <string name="standard">Standard</string>
+    <string name="make_standard">Als Standard festlegen</string>
+    <string name="standard_is_used_for">Standard wird benutzt um das ausgewählte Essen dem Tagebuch hinzuzufügen</string>
+    <string name="about_text">This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+        \n
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+        \n\n
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/gpl.txt.
+    \n
+    \nWe use Google Analytics to track the usage of this application. We track every screen without tracking de contents of the screens. Your identity or other personal information is not tracked.
+    \n 
+    \nThe food data comes from the following sources:
+    \n
+    \n
+    - Dutch: www.johandegraeve.net \n\n
+    - English - Norway: The Norwegian Food Safety Authority \n\n
+    - English - Denmark: Danish Food Composition Databank, version 6.0, 2008 \n\n
+    - French - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich and Federal Office of Public Health \n\n
+    - Spanish - Argentina: http://www.unlu.edu.ar/~argenfood/wwwunlu.htm \n\n
+    - Spanish - Uruguay: Tabla de Composición de Alimentos de Uruguay \n\n
+    - German - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich and Federal Office of Public Health \n\n
+    - Italian - Switserland: Swiss Food Composition Database V2.0 - ETH Zurich and Federal Office of Public Health \n\n
+    - Danish: Danish Food Composition Databank, version 6.0, 2008 \n\n
+    - Romanian: http://www.getfit.ro/continut.php \n\n
+    - Norwegian: The Norwegian Food Safety Authority \n\n
+    - Czech: http://www.rozumnehubnuti.cz \n\n
+    - USDA National Nutrition Database: U.S. Department of Agriculture, Agricultural Research Service. 2011. USDA National Nutrient Database for Standard Reference, Release 24. Nutrient Data Laboratory Home Page,http://www.ars.usda.gov/ba/bhnrc/ndl \n\n
+    - French: Axelle, membre du Forum Diabète de Doctissimo
+    </string>
+    <string name="copyDatabaseToSD">Datenbank sichern 2 SD</string>
+    <string name="foodToExcel">Produkte exportieren 2 csv</string>
+    <string name="excelToDB">Produkte aus cvs importieren</string>
+    <string name="select_standard_medicine_type">Standard für Insulin auswählen</string>
+    <string name="define_own">eigenes definieren</string>
+    <string name="part">Stück</string>
+    <string name="file_name">Dateiname</string>
+    <string name="no_own_food">Kein eigenes/verändertes Essen</string>
+    <string name="could_not_write">Kann nicht auf SD schreiben</string>
+    <string name="succesfull_wrote_to_sd">Erfolgreich auf SD gespeichert</string>
+    <string name="succesfull_wrote_csv_file">Erfolgreich CSV-Datei erstellt</string>
+    <string name="sucessfull_copied_records_to_database">Produkte erfolgreich importiert</string>
+    <string name="could_not_read_from_sd">Konnte nicht von SD lesen</string>
+    <string name="selections_aint_empty">es ist noch Essen ausgewählt!</string>
+    <string name="dont_add_medicine">Insulin nicht hinzufügen</string>
+    <string name="sucesfull_added">Zur Auswahl hinzugefügte Produkte</string>
+    <string name="warning">Warnung</string>
+    <string name="app_will_exit">Die Anwendung wird nun beendet. \n Bitte manuell neustarten.</string>
+    <string name="something_went_wrong">Irgendwas ging schief</string>
+    <string name="succesfull_copied">Datenbank erfolgreich von SD auf Telefon kopiert</string>
+    <string name="databaseFromSDToPhone">Datenbank von SD wiederherstellen</string>
+    <string name="deleteCurrentDatabase">Diese Funktion wird die aktuelle Datenbank löschen und die auf der SD überschreiben\n\nAlle vorhandenen Daten werden gelöscht</string>
+    <string name="seeMore">Mehr</string>
+    <string name="noFilesFound">Keine CSV-Dateien im Wurzelverzeichnis der SD gefunden</string>
+    <string name="chooseFile">Datei wählen</string>
+    <string name="calculated">Berechnet:</string>
+    <string name="searchNext">Weiter</string>
+    <string name="selectedTime">ausgewählte Zeits</string>
+    <string name="resource">Ressource</string>
+    <string name="customResource">Es wurde eine veränderte Datenbank ausgewählt.\nNun kann eigenes Essen importiert werden, wähle dazu \'Backup, Wiederherstellen, Import und Export. Dann \'Essen aus CSV importieren\'.</string>
+    <string name="realTotal">Total</string>
+	<string name="standardAmountCantBeEmpty">Menge darf nicht leer sein</string>
+	<string name="hour">Stunde</string>
+	
+	<string name="pref_log_to_excel">Log zu Excel</string>
+	<string name="minutes">minuten</string>
+	
+	<string name="created">erstellt</string>
+	
+	<string name="unhide_hidden_food">Ton unsichtbaren Lebensmitteln</string>
+    <string name="sure_to_unhide_hidden_food">Sind Sie sicher, Sie essen alle wieder unsichtbar zu zeigen ?</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayoutVerticalWithPadding" >
+
+    <LinearLayout style="@style/llTitel" >
+
+        <Button
+            android:id="@+id/buttonShowFoodListShowCreateFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_add" />
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            style="@style/styleEditText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/search"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonShowFoodListSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_search" />
+
+        <Button
+            android:id="@+id/buttonShowFoodListShowSelectedFood"
+            style="@style/buttonForward" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewLoading"
+        style="@style/defaultFontTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:text="@string/loading" />
+
+</LinearLayout>

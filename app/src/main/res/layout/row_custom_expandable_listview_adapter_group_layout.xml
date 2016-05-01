@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textViewHeight"
+        android:layout_width="40dip"
+        android:layout_height="66dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="40" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutInsuline"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="19.5"
+            android:background="@color/ColorBlack" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/defaultFontTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMedicine"
+                    android:paddingLeft="5dip"
+                    android:textColor="@color/ColorWhite" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    style="@style/defaultFontTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:textColor="@color/ColorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/defaultFontNormal"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="19.5"
+            android:background="@color/ColorBlack" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip" >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/defaultFontTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:textColor="@color/ColorWhite" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    style="@style/defaultFontTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:textColor="@color/ColorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

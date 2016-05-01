@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+<resources>
+
+    <!-- Default fonts -->
+    <style name="defaultFontNormal">
+        <item name="android:textColor">@color/ColorText</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="defaultFontTitle" parent="defaultFontNormal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/colorTracking</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+     <style name="llTitel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/title_background</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- Buttons -->
+    <style name="buttonTitel" parent="button">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="buttonBack" parent="buttonTitel">
+        <item name="android:background">@drawable/ic_menu_back</item>
+    </style>
+
+    <style name="buttonForward" parent="buttonTitel">
+        <item name="android:background">@drawable/ic_menu_forward</item>
+    </style>
+    
+    <style name="LinearLayoutTrashCan">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="buttonTrashCan">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ic_menu_delete</item>
+    </style>
+
+    <!-- editText -->
+    <style name="styleEditText" parent="defaultFontNormal">
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <!-- table -->
+    <style name="styleTableRowGravityCenter" parent="defaultFontNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="textViewInTableAlignRight" parent="defaultFontNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="editTextInTableText" parent="styleEditText">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="editTextInTableFloat" parent="styleEditText">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:digits">1234567890.</item>
+        <item name="android:inputType">phone</item>
+    </style>
+
+    <!-- linearlayouts -->
+    <style name="linearLayoutVerticalWithPadding" parent="defaultFontNormal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:paddingTop">0dip</item>
+    </style>
+
+    <!-- linearlayout that goes around buttonAdd -->
+    <style name="linearLayoutForButtonAdd">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dip</item>
+        <item name="android:weightSum">1.0</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- buttons -->
+    <style name="button" parent="defaultFontNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="buttonAdd" parent="button">
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:text">@string/add</item>
+    </style>
+
+    <!-- listviews -->
+    <style name="listViewItemOne" parent="defaultFontNormal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="listViewItemArrow" parent="defaultFontNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:text">@string/endOfListView</item>
+    </style>
+
+</resources>

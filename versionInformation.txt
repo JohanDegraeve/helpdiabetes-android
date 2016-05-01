@@ -1,7 +1,0 @@
-Version 2.0.1:
-	- database version to version 2
-	- search improvement:
-	search for "brood wit" will split the worths in "brood" and "wit".
-	- addFoodToSelection shows calculated fields in bold.
-	- Databaselanguage "francaise - switserland" to "francais - switserland".
-	- database language "usda national nutrition database" to "english- usda national nutrition database".

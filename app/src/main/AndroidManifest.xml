@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hippoandfriends.helpdiabetes"
+    android:installLocation="auto"
+    android:versionCode="22"
+    android:versionName="2.0.8" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowAddFoodToSelection" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowCreateFood" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowCreateUnit" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowFoodList" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowFoodTemplates" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowManageOwnFood" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowSelectedFood" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettings" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsInsulineRatio" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsMealTimes" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowUpdateFood" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsValue" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsFontSizeLists" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Exercise.ShowAddExerciseEvent" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Exercise.ShowAddExerciseType" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Exercise.ShowExerciseTypes" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Tracking.ShowTracking" >
+        </activity>
+        <activity
+            android:name="com.hippoandfriends.helpdiabetes.Show.ShowHomeTab"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupTracking" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupMeal" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupExercise" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupGlucose" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupMedicine" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.ActivityGroup.ActivityGroupSettings" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Glucose.ShowAddGlucoseEvent" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.ShowStart" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsGlucoseUnit" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Medicine.ShowAddMedicineEvent" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Food.ShowLoadingFoodData" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsDBLanguage" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Medicine.ShowMedicineTypes" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Medicine.ShowAddMedicineType" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsBackup" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Settings.ShowSettingsDefaultMedicineType" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Tracking.ShowLoadingTrackingData" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Tracking.ShowTrackingBloodGlucoseChart" >
+        </activity>
+        <activity android:name="com.hippoandfriends.helpdiabetes.Show.Tracking.ShowTrackingDefaultInsulineChart" >
+        </activity>
+        <activity android:name=".Show.Tracking.ShowTrackingAScatterChartBloodGlucose" >
+        </activity>
+    </application>
+
+</manifest>

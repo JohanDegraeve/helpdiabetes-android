@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please read info.txt for license and legal information -->
+
+<!-- This array list need to stay in the right order, also no other object can be added to this array or the code will crash -->
+<!-- This array list is used in the add exercise event page. this arraylist will fill the spinner for duration -->
+<resources>
+
+    <string-array name="standard_duration">
+        <item>30 minuten</item>
+        <item>1 stunde</item>
+        <item>1 stunde 30 minuten</item>
+        <item>2 stunde</item>
+        <item>2 stunde 30 minuten</item>
+        <item>3 stunde</item>
+        <item>3 stunde 30 minuten</item>
+        <item>4 stunde</item>
+        <item>4 stunde 30 minuten</item>
+        <item>5 stunde</item>
+    </string-array>
+
+</resources>
