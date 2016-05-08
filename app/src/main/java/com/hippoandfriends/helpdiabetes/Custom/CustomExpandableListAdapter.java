@@ -28,6 +28,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 	private int fontSize;
 	private int defaultValue;
 	private int displayMetrics;
+	private int height;
 
 	public void clear() {
 		calculatedInsuline = "";
@@ -139,15 +140,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
 		// set right height
 		LayoutParams params = ll1.getLayoutParams();
-
-		switch (displayMetrics) {
-			case DisplayMetrics.DENSITY_HIGH:
-				params.height = (5 * fontSize);
-				break;
-			default:
-				params.height = (4 * fontSize);
-				break;
-		}
+		params.height = height;
 
 		ll1.setLayoutParams(params);
 		ll2.setLayoutParams(params);
@@ -281,16 +274,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 		tv3.setTextSize(fontSize);
 		tv4.setTextSize(fontSize - 7);
 
-		LayoutParams params = tvHeigth.getLayoutParams();
-		switch (displayMetrics) {
-			case DisplayMetrics.DENSITY_HIGH:
-				params.height = (5 * fontSize);
-				break;
-			default:
-				params.height = (4 * fontSize);
-				break;
-		}
-		tvHeigth.setLayoutParams(params);
+		height = tvHeigth.getLayoutParams().height;
 
 		if (calculatedInsuline.equals("")) {
 			ll.setVisibility(View.GONE);
