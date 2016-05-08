@@ -2,7 +2,7 @@
 <!-- Please read info.txt for license and legal information -->
 <com.hippoandfriends.helpdiabetes.slider.SliderContainer
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/com.hippoandfriends.helpdiabetes"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/dateSliderContainer"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">

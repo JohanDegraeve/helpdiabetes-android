@@ -82,6 +82,7 @@
     <string name="amound_of_carbs">Carbohydrates</string>
     <string name="amound_of_protein">Protein</string>
     <string name="amound_of_fat">Fat</string>
+    <string name="multiplie">X</string>
     <string name="cant_delete_food_caus_food_is_in_use">This food cant be deleted (it is still in use)</string>
     <string name="create_new_food">Food</string>
     <string name="food_name">Food name</string>
@@ -175,6 +176,7 @@
     <string name="customResource">You have selected a custom database.\nYou can now import your own food items by selecting \'Backup, Restore, Import and Export. Then you select \'import food items from csv file\'.</string>
     <string name="realTotal">Total</string>
 	<string name="standardAmountCantBeEmpty">The amount cant be empty</string>
+    <string name="hour">Hour</string>
 	
 	<string name="pref_log_to_excel">Log to Excel</string>
 	<string name="minutes">minutes</string>
