@@ -274,7 +274,14 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 		tv3.setTextSize(fontSize);
 		tv4.setTextSize(fontSize - 7);
 
-		height = tvHeigth.getLayoutParams().height;
+		// set right height
+		height = tvHeigth.getLayoutParams().height;//this is the default height
+		if (height < fontSize * 5) {
+			height = fontSize * 5;
+			LayoutParams params = tvHeigth.getLayoutParams();
+			params.height = height;
+			tvHeigth.setLayoutParams(params);
+		}
 
 		if (calculatedInsuline.equals("")) {
 			ll.setVisibility(View.GONE);

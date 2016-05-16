@@ -40,6 +40,10 @@
                     android:paddingLeft="5dip"
                     android:textColor="@color/ColorWhite" />
 
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></FrameLayout>
+
                 <TextView
                     android:id="@+id/tv2"
                     style="@style/defaultFontTitle"

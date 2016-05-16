@@ -55,7 +55,8 @@
     <string name="addToSelection">Zur Auswahl hinzufügen</string>
     <string name="showSelectedFoodPopupAddAmountToTemplate">Menge speichern?</string>
     <string name="insuline">Insulin</string>
-    <string name="insulineRatio">BE/1 IE</string>
+    <string name="insulineRatio">grams of carbs/1 IU</string>
+    <string name="insulineRatioShort">carbs/IU</string>
     <string name="insulineUnit">IE</string>
     <string name="showSelectedFoodEatSelectedFood">Zum Tagebuch hinzufügen</string>
     <string name="total">Gesamtauswahl</string>

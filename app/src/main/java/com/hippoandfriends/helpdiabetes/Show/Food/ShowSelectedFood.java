@@ -748,7 +748,7 @@ public class ShowSelectedFood extends ListActivity {
 				adapter.setInsulineRatio(functions.roundFloats(fInsulineRatio,
 						1)
 						+ " "
-						+ getResources().getString(R.string.insulineRatio));
+						+ getResources().getString(R.string.insulineRatioShort));
 
 			}
 		}

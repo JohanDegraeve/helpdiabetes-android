@@ -53,6 +53,7 @@
     <string name="showSelectedFoodPopupAddAmountToTemplate">Wilt u de aantallen mee bewaren?</string>
     <string name="insuline">Insuline</string>
     <string name="insulineRatio">gram Kh/1 IE</string>
+    <string name="insulineRatioShort">Kh/IE</string>
     <string name="insulineUnit">IE</string>
     <string name="showSelectedFoodEatSelectedFood">toevoegen aan rapport</string>
     <string name="total">Totaal selecties</string>
