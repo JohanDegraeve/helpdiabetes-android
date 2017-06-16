@@ -76,6 +76,8 @@ public class ShowLoadingFoodData extends Activity {
 	public String dbTopOneCommonFoodUnit;
 	public String dbTopTwoCommonFoodUnit;
 
+	public static ShowLoadingFoodData INSTANCE;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -86,6 +88,7 @@ public class ShowLoadingFoodData extends Activity {
 		setContentView(contentView);
 
 		context = this;
+		INSTANCE = this;
 	}
 
 	@Override

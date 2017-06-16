@@ -66,6 +66,8 @@ public class ShowFoodList extends ListActivity {
 	// this animation is used to let the button flash when we have selections
 	private Animation animation;
 
+	public static ShowFoodList INSTANCE;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -153,6 +155,8 @@ public class ShowFoodList extends ListActivity {
 				onClickSearch();
 			}
 		});
+
+		INSTANCE = this;
 	}
 
 	// This method will show the gray or the highlighted search button

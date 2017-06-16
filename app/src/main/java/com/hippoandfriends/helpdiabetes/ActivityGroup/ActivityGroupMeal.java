@@ -124,11 +124,7 @@ public class ActivityGroupMeal extends ActivityGroup {
 
 	// The foodData will always be in history place 0
 	public ShowLoadingFoodData getFoodData() {
-		try {
-			return (ShowLoadingFoodData) history.get(0).getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowLoadingFoodData.INSTANCE;
 	}
 
 	// The showFoodList will always be in history place 1
@@ -137,11 +133,7 @@ public class ActivityGroupMeal extends ActivityGroup {
 	// This means that history only will have 1 object in its list and that is
 	// on position 0 so position 1 is empty
 	public ShowFoodList getShowFoodList() {
-		try {
-			return (ShowFoodList) history.get(1).getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowFoodList.INSTANCE;
 	}
 
 	@Override
@@ -247,30 +239,11 @@ public class ActivityGroupMeal extends ActivityGroup {
 
 	// show update food
 	public ShowUpdateFood getShowUpdateFood() {
-		try {
-			View v = history.get(history.size() - 2);
-			return (ShowUpdateFood) v.getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowUpdateFood.INSTANCE;
 	}
 
 	public ShowSelectedFood getShowSelectedFood() {
-		try {
-			View v = history.get(history.size() - 2);
-			return (ShowSelectedFood) v.getContext();
-		} catch (Exception e) {
-
-			try {
-				// this will be returnd when we delete a template and we refresh
-				// the data
-				View o = history.get(history.size() - 1);
-				return (ShowSelectedFood) o.getContext();
-			} catch (Exception l) {
-				return null;
-			}
-		}
-
+		return ShowSelectedFood.INSTANCE;
 	}
 
 	public void goToSeletedFood() {

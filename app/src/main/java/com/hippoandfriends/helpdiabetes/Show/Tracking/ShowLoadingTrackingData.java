@@ -49,6 +49,8 @@ public class ShowLoadingTrackingData extends Activity {
 
 	public Date currentDateMinutOneWeek;
 
+	public static ShowLoadingTrackingData INSTANCE;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -65,6 +67,8 @@ public class ShowLoadingTrackingData extends Activity {
 		listBloodGlucose = new ArrayList<DBBloodGlucoseEvent>();
 
 		context = this;
+
+		INSTANCE = this;
 	}
 
 	@Override

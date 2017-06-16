@@ -29,6 +29,8 @@ public class ShowExerciseTypes extends ListActivity {
 	private List<DBExerciseType> listExerciseTypes;
 	private Button btAdd, btBack;
 
+	public static ShowExerciseTypes INSTANCE;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -55,7 +57,8 @@ public class ShowExerciseTypes extends ListActivity {
 				ActivityGroupSettings.group.back();
 			}
 		});
-		
+
+		INSTANCE = this;
 	}
 
 	//refresh the name of a object

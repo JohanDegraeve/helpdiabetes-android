@@ -29,6 +29,8 @@ public class ShowMedicineTypes extends ListActivity {
 	private List<DBMedicineType> listMedicineTypes;
 	private Button btAdd, btBack;
 
+	public static ShowMedicineTypes INSTANCE;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -56,6 +58,7 @@ public class ShowMedicineTypes extends ListActivity {
 			}
 		});
 
+		INSTANCE = this;
 	}
 
 	// refresh the name of a object

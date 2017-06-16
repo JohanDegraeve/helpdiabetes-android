@@ -128,20 +128,12 @@ public class ActivityGroupSettings extends ActivityGroup {
 
 	// The exercise types view will alaways be in history place 1 if it exists
 	public ShowExerciseTypes getExerciseTypes() {
-		try {
-			return (ShowExerciseTypes) history.get(1).getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowExerciseTypes.INSTANCE;
 	}
 
 	// The medicine types view will alaways be in history place 1 if it exists
 	public ShowMedicineTypes getMedicineTypes() {
-		try {
-			return (ShowMedicineTypes) history.get(1).getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowMedicineTypes.INSTANCE;
 	}
 
 	// Make for every class a refresh method

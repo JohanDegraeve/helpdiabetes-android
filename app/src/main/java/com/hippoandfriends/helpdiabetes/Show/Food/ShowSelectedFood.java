@@ -78,6 +78,8 @@ public class ShowSelectedFood extends ListActivity {
 	// to write to the database when listview expand or collaps
 	private DbAdapter expandOrNotDBAdapater;
 
+	public static ShowSelectedFood INSTANCE;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -181,7 +183,11 @@ public class ShowSelectedFood extends ListActivity {
 						setExpand(0);
 					}
 				});
+
+		INSTANCE = this;
 	}
+
+
 
 	private void setExpand(int value) {
 		expandOrNotDBAdapater.open();
