@@ -127,11 +127,7 @@ public class ActivityGroupTracking extends ActivityGroup {
 	}
 	
 	public ShowLoadingTrackingData getTrackingData() {
-		try {
-			return (ShowLoadingTrackingData) history.get(0).getContext();
-		} catch (Exception e) {
-			return null;
-		}
+		return ShowLoadingTrackingData.INSTANCE;
 	}
 
 	// this method will kill the application

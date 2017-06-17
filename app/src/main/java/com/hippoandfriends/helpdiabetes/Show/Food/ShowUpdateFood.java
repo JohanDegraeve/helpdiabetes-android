@@ -35,6 +35,8 @@ public class ShowUpdateFood extends ListActivity {
 	private DBFood food;
 	private List<DBFoodUnit> listFoodUnit;
 
+	public static ShowUpdateFood INSTANCE;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -75,6 +77,8 @@ public class ShowUpdateFood extends ListActivity {
 				onClickButtonAdd();
 			}
 		});
+
+		INSTANCE = this;
 	}
 
 	@Override
